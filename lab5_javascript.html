@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Validasi Form</title>
+  <script>
+    
+    function validateForm() {
+      let nama = document.forms["formku"]["nama"].value;
+      let email = document.forms["formku"]["email"].value;
+      let umur = document.forms["formku"]["umur"].value;
+      let pesan = "";
+
+      
+      if (nama == "" || email == "" || umur == "") {
+        alert("Semua field harus diisi!");
+        return false;
+      }
+
+      let polaEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+      if (!email.match(polaEmail)) {
+        alert("Format email tidak valid!");
+        return false;
+      }
+      
+      if (isNaN(umur) || umur < 17) {
+        alert("Umur harus berupa angka dan minimal 17 tahun!");
+        return false;
+      }
+
+      alert("Data berhasil dikirim!");
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <h2>Formulir Pendaftaran</h2>
+  <form name="formku" onsubmit="return validateForm()">
+    <label>Nama:</label><br>
+    <input type="text" name="nama"><br><br>
+
+    <label>Email:</label><br>
+    <input type="text" name="email"><br><br>
+
+    <label>Umur:</label><br>
+    <input type="text" name="umur"><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+</body>
+</html>
