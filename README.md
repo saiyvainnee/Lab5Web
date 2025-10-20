@@ -1,3 +1,5 @@
+# Nama :Sayidina Ramadhan Nim : 312410112
+
 # Praktikum 5 java script
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b339b5f6-8ae1-4972-a920-683b0b71e7e0" />
@@ -17,3 +19,6 @@
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/484a9aaa-ad27-4940-8225-c8402efc638e" />
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a114c3a-5930-4db0-a35d-5c820abaaedb" />
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bec5cc62-4b37-41b5-99ea-f702639ae016" />
+
+# Tugas
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/22f48ab9-d262-4386-ac8e-6448e30187d4" />
